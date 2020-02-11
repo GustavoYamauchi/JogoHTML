@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>YamaQuiz</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1 id="pergunta" >Perguntas</h1>
+        <div id="respostas">
+            <div>
+                <div id="a" class="opcao" onclick="verificar('a')">
+                    <p></p>
+                </div>
+                <div id="b" class="opcao" onclick="verificar('b');">
+                    <p></p>
+                </div>
+            </div>
+            <div>
+                <div id="c" class="opcao" onclick="verificar('c');">
+                    <p></p>
+                </div>
+                <div id="d" class="opcao" onclick="verificar('d');">
+                    <p></p>
+                </div>
+            </div>
+            
+        </div>
+        <div id="botoes">
+            <div id="retry" onclick="retry();">tentar novamente</div>
+            <div id="next"  onclick="next();">Proximo</div>
+        </div>
+    </div>
+</body>
+</html>

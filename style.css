@@ -1,0 +1,47 @@
+body{
+    background-color: gray;
+}
+
+#pergunta{
+    text-align: center;
+    margin-top: 25vh;
+}
+
+#respostas{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+.opcao {
+    width: 200px;
+    height: 100px;
+    margin: 10% 0;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    user-select: none;
+}
+
+#botoes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: row;
+}
+
+#next {
+    display: block;
+    cursor: pointer;
+}
+
+#retry {
+    cursor: pointer;
+}
