@@ -6,13 +6,13 @@ document.addEventListener("DOMContentLoaded", function () {
 let perguntaIndex = 0;
 let respostasIndex = 0;
 //arrays
-const perguntas = ["Nome", "Idade", "Curso", "O que queria ser quando criança"];
-const respostasCorretas = ['a', 'a', 'c', 'a'];
+const perguntas = ["Nome", "Data de nascimento / Idade", "Curso", "O que queria ser quando criança", "Carro dos sonhos", "Eu tinha quantos anos nessa imagem?"];
+const respostasCorretas = ['a', 'a', 'c', 'a', 'c', 'd'];
 const respostas = [ "A - Gustavo Yamauchi Souza Reis", "B - Gustavo Yamauchi de Souza", "C - Gustavo Yamauchi dos Reis", "D - Gustavo Yamauchi",
                     "A - 18", "B - 19", "C - 20", "D - 21", 
                     "A - Jogos Digitais", "B - Engenharia da Computação", "C - Ciencias da Computação", "D - Designer",    
                     "A - Astronauta", "B - Bombeiro", "C - Policial", "D - Piloto",
-                    "A - ", "B - ", "C - ", "D - ",
+                    "A - 7 anos", "B - 6 anos", "C - 5 anos", "D - 4 anos",
                     "A - ", "B - ", "C - ", "D - "]
 
 
