@@ -1,28 +1,17 @@
 body{
-    background-color: gray;
+    background-color: #2c2c2c;
 }
 
 #pergunta{
     text-align: center;
-    margin-top: 25vh;
-}
-
-#respostas{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
+	color: #665ca5;
 }
 
 .opcao {
-    width: 200px;
-    height: 100px;
     margin: 10% 0;
-    background-color: black;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    background-color: #665ca5;
     cursor: pointer;
+	padding: 10%;
 }
 
 p{
@@ -30,18 +19,22 @@ p{
     user-select: none;
 }
 
-#botoes{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex-direction: row;
-}
-
 #next {
-    display: block;
+    display: none;
     cursor: pointer;
 }
 
 #retry {
     cursor: pointer;
+}
+
+#img1{
+	display: none;
+}
+
+#bloco {
+	margin: 25vh 30vw;
+	border: 10px solid #c8d869;
+	background-color: white;
+	border-radius: 20%;
 }
