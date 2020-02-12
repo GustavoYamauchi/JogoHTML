@@ -4,7 +4,8 @@ body{
 
 #pergunta{
     text-align: center;
-	color: #665ca5;
+    color: #665ca5;
+    margin-top: revert;
 }
 
 .opcao {
@@ -43,3 +44,4 @@ p{
 	background-color: white;
 	border-radius: 20%;
 }
+
