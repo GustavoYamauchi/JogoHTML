@@ -6,7 +6,8 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet"> 
 
 
 	<title>YamaQuiz</title>
@@ -15,10 +16,9 @@
 </head>
 
 <body>
-	<div id="bloco">
+	<div id="bloco" class="col-sm-6">
 		<h1 id="pergunta">Perguntas</h1>
 		<img id="img1" src="img.jpeg"></img>
-
         <div id="respostas">
             <div class="row justify-content-sm-around">
                 <div id="a" class="opcao col-sm-4" onclick="verificar('a')">
@@ -38,8 +38,8 @@
             </div>
 			
 			<div class="row justify-content-sm-around">
-                <button id="retry" type="button" class="btn btn-danger col-sm-4" onclick="montarPergunta();">Tentar novamente</button>
-                <button id="next" type="button" class="btn btn-success col-sm-4" onclick="montarPergunta();">Próximo</button>
+                <button id="retry" type="button" class="btn btn-danger botao col-sm-4" onclick="montarPergunta();">Tentar novamente</button>
+                <button id="next" type="button" class="btn btn-success botao col-sm-4" onclick="next();">Próximo</button>
 			</div>
             
         </div>
@@ -51,5 +51,3 @@
 </html>
 
 
-
-<!-- #2c2c2c #c8d869 #665ca5 -->

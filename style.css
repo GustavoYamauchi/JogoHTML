@@ -5,7 +5,9 @@ body{
 #pergunta{
     text-align: center;
     color: #665ca5;
-    margin-top: revert;
+    margin-top: 5%;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 .opcao {
@@ -14,21 +16,20 @@ body{
     cursor: pointer;
     padding: 10%;
     border-radius: 5%;
+    text-align: center;
 }
 
 p{
     color: white;
     user-select: none;
+    font-family: 'Lato', sans-serif;
 }
 
 #next {
-    display: none;
-    cursor: pointer;
     background-color: green;
 }
 
 #retry {
-    cursor: pointer;
     background-color: red;
 }
 
@@ -39,9 +40,14 @@ p{
 }
 
 #bloco {
-	margin: 25vh;
+	margin: auto;
 	border: 10px solid #c8d869;
 	background-color: white;
-	border-radius: 20%;
+    border-radius: 20%;
 }
 
+.botao {
+    display: none;
+    cursor: pointer;
+    margin-bottom: 2%;
+}
