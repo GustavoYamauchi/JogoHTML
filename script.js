@@ -7,15 +7,15 @@ let perguntaIndex = 0;
 let respostasIndex = 0;
 let jogando = 1;
 //arrays
-const perguntas = ["1 - Nome", "2 - Data de nascimento / Idade", "3 - Curso", "4 - O que eu queria ser quando crescer", "5 - Carro dos sonhos", "6 - Eu tinha quantos anos nessa foto?", "FIM"];
-const respostasCorretas = ['a', 'a', 'c', 'a', 'c', 'd'];
+const perguntas = ["1 - Nome", "2 - Data de nascimento / Idade", "3 - Curso", "4 - O que eu queria ser quando crescer", "5 - Carro dos sonhos", "6 - Eu tinha quantos anos nessa foto?", "7 - Qual era o brinquedo que eu gostava de colecionar?", "FIM"];
+const respostasCorretas = ['a', 'a', 'c', 'a', 'c', 'd', 'b'];
 const respostas = [ "A - Gustavo Yamauchi Souza Reis", "B - Gustavo Yamauchi de Souza", "C - Gustavo Yamauchi dos Reis", "D - Gustavo Yamauchi",
                     "A - 18 anos | 31/05/2001", "B - 18 anos | 30/05/2001", "C - 19 anos | 31/05/2000", "D - 19 anos | 30/05/2001", 
                     "A - Jogos Digitais", "B - Engenharia da Computação", "C - Ciencias da Computação", "D - Design",    
                     "A - Astronauta", "B - Bombeiro", "C - Policial", "D - Piloto",
                     "A - Lamborghini", "B - Ferrari", "C - Celta", "D - Porsche",
 					"A - 7 anos", "B - 6 anos", "C - 5 anos", "D - 4 anos",
-                    "A - ", "B - ", "C - ", "D - "]
+                    "A - Lego", "B - Hot Wheels", "C - Bonecos", "D - Ferramentas"]
 
 
 function proxima() {
